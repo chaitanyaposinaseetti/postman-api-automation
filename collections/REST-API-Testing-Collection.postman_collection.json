@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "4e529325-9a13-4b47-88e1-db0fbed1d064",
+		"name": "REST-API-Testing-Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32527795",
+		"_collection_link": "https://www.postman.com/speeding-trinity-3078/workspace/postman-api-automation-testing/collection/32527795-4e529325-9a13-4b47-88e1-db0fbed1d064?action=share&source=collection_link&creator=32527795"
+	},
+	"item": [
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=1",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
