@@ -79,7 +79,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n       \"name\": \"Krishna Updated\",\r\n       \"job\": \"Senior QA Engineer\"\r\n   }",
+					"raw": "{\r\n       \"name\": \"Rama Updated\",\r\n       \"job\": \"Senior QA Engineer\"\r\n   }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -123,6 +123,14 @@
 						"users"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User Ravana",
+			"request": {
+				"method": "DELETE",
+				"header": []
 			},
 			"response": []
 		}
